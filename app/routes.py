@@ -7,4 +7,4 @@ import json
 
 @app.route('/')
 def index():
-	return "Updated world"
+	return "<h1>Updated world</h1>"
