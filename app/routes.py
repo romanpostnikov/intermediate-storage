@@ -44,7 +44,7 @@ def youtube_request(id):
         api_service_name, api_version, developerKey = DEVELOPER_KEY)
 
     request = youtube.videos().list(
-        part="snippet,contentDetails,statistics",
+        part="statistics",
         id=id
     )
 
