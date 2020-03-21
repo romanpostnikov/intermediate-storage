@@ -38,7 +38,7 @@ def youtube_request(id):
 
     api_service_name = "youtube"
     api_version = "v3"
-    DEVELOPER_KEY = "AIzaSyCwmkITeKUu3UkehGolUZnT_lHvPShOeYI"
+    DEVELOPER_KEY = "AIzaSyCPYnEJql7upntzifAmJJnjyiud2X7dtus"
 
     youtube = googleapiclient.discovery.build(
         api_service_name, api_version, developerKey = DEVELOPER_KEY)
